@@ -214,9 +214,7 @@ Assets/Scenes/MainMenu.unity
 
 ## 项目展示
 
-- 演示视频：待补充
-- 可运行版本：待补充
-- 项目截图：待补充
+- 演示视频与试玩包：https://pan.baidu.com/s/1KIGXI6VV8VvXDUn4Q8LeGQ?pwd=1234
 
 ## 后续优化计划
 
