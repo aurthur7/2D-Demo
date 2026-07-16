@@ -51,7 +51,19 @@ public class MonsterEvacuate : MonoBehaviour
         {
             return;
         }
-        isevacuating=true;
+        IMonsterEvacuateHandler[] handlers=GetComponents<IMonsterEvacuateHandler>();
+        foreach (IMonsterEvacuateHandler handler in handlers)
+        {
+            if (!handler.canevacuate())
+            {
+                return;
+            }
+        }
+        foreach (IMonsterEvacuateHandler handler in handlers)
+        {
+            handler.onevacuatestart();
+        }
+        isevacuating = true;
         monstercollider.enabled = false;
         randomdir();
         foreach (MonoBehaviour behaviour in behaviours)

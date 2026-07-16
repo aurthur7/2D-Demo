@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 3832671639726469012}
   - component: {fileID: -7290262348891024114}
   - component: {fileID: 4433082969363607641}
+  - component: {fileID: 2325172788938228959}
   m_Layer: 0
   m_Name: Monster_Barrel
   m_TagString: Monster
@@ -82,8 +83,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1004924827
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1703543032, guid: c165515551d896c46a8c6d107f53e31a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -303,5 +304,18 @@ MonoBehaviour:
   - {fileID: 7222868227517362804}
   - {fileID: 410159246949519870}
   monstercollider: {fileID: 9037015534661546454}
+  sprite: {fileID: 0}
   dir: {x: 0, y: 0, z: 0}
   poolname: Monster_Barrel
+--- !u!114 &2325172788938228959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373602776219169938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34870756c8a77b24385960130316f79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

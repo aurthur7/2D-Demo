@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 2977903422155631890}
   - component: {fileID: 2166551154372248062}
   - component: {fileID: -7191222872400836361}
+  - component: {fileID: 557792284554030830}
   m_Layer: 0
   m_Name: Monster_Torch
   m_TagString: Monster
@@ -85,8 +86,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1004924827
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1489741378, guid: 1fc8de94f08d0a54680c9ff0f395a105, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -310,8 +311,21 @@ MonoBehaviour:
   - {fileID: 405722845418532359}
   - {fileID: 6232491925638467644}
   monstercollider: {fileID: 254230641704743814}
+  sprite: {fileID: 0}
   dir: {x: 0, y: 0, z: 0}
   poolname: Monster_Torch
+--- !u!114 &557792284554030830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2444581009530969412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebceb2d04c06f7c48960338a7b7351d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2998983073219264324
 GameObject:
   m_ObjectHideFlags: 0

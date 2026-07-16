@@ -74,15 +74,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1076670887
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2017764417, guid: 0ca86075093ba194cb7c82ba15f7bd2d, type: 3}
+  m_Sprite: {fileID: 706252778, guid: 0d8104633d020de48902e862a4ff9892, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -121,14 +121,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d42e96ab965d27c4bbd98f4bb396cad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  exploredamage: 1
   movespeed: 2
-  rotatespeed: 200
   start: {x: 0, y: 0, z: 0}
   target: {x: 0, y: 0, z: 0}
   time: 0
   high: 2
   flytime: 1.5
   isfly: 0
+  bombcontroller: {fileID: 0}
+  bombanimation: {fileID: 0}
 --- !u!114 &1462812883704151205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bombannimation: {fileID: 0}
+  bombstatecontroller: {fileID: 0}
 --- !u!114 &2081221129840215473
 MonoBehaviour:
   m_ObjectHideFlags: 0

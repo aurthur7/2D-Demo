@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Circle
+  - 
   - Water
   - UI
   - 
@@ -42,6 +42,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Circle
+  - name: Ground
     uniqueID: 2000536855
+    locked: 0
+  - name: BackVFX
+    uniqueID: 2071504941
+    locked: 0
+  - name: Units
+    uniqueID: 1004924827
+    locked: 0
+  - name: Projectiles
+    uniqueID: 1076670887
+    locked: 0
+  - name: FrontVFX
+    uniqueID: 1765079519
+    locked: 0
+  - name: WorldUI
+    uniqueID: 1293941547
     locked: 0
